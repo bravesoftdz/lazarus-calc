@@ -1,0 +1,491 @@
+object Form1: TForm1
+  Left = 259
+  Height = 604
+  Top = 135
+  Width = 368
+  AutoSize = True
+  BorderStyle = bsNone
+  BorderWidth = 1
+  Caption = 'Form1'
+  ClientHeight = 584
+  ClientWidth = 368
+  Color = clInactiveCaptionText
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Edit2: TEdit
+    Left = 0
+    Height = 44
+    Top = 8
+    Width = 366
+    Alignment = taRightJustify
+    AutoSize = False
+    Color = clForm
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Cursor = crHandPoint
+    Left = 0
+    Height = 36
+    Top = 230
+    Width = 120
+    Caption = '1'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Cursor = crHandPoint
+    Left = 123
+    Height = 36
+    Top = 230
+    Width = 120
+    Caption = '2'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Cursor = crHandPoint
+    Left = 246
+    Height = 36
+    Top = 230
+    Width = 120
+    Caption = '3'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Cursor = crHandPoint
+    Left = 0
+    Height = 36
+    Top = 194
+    Width = 120
+    Caption = '4'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button4Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Cursor = crHandPoint
+    Left = 123
+    Height = 36
+    Top = 194
+    Width = 120
+    Caption = '5'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button5Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Cursor = crHandPoint
+    Left = 246
+    Height = 36
+    Top = 194
+    Width = 120
+    Caption = '6'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button6Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Cursor = crHandPoint
+    Left = 0
+    Height = 36
+    Top = 162
+    Width = 120
+    Caption = '7'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button7Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Button8: TButton
+    Cursor = crHandPoint
+    Left = 123
+    Height = 36
+    Top = 162
+    Width = 120
+    Caption = '8'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button8Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Button9: TButton
+    Cursor = crHandPoint
+    Left = 246
+    Height = 36
+    Top = 162
+    Width = 120
+    Caption = '9'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button9Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button12: TButton
+    Cursor = crHandPoint
+    Left = 246
+    Height = 36
+    Top = 264
+    Width = 120
+    Caption = '='
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button12Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object BitBtn1: TBitBtn
+    Cursor = crHandPoint
+    Left = 123
+    Height = 36
+    Top = 125
+    Width = 120
+    Caption = 'del'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object BitBtn2: TBitBtn
+    Cursor = crHandPoint
+    Left = 0
+    Height = 36
+    Top = 56
+    Width = 120
+    Caption = 'sen'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn2Click
+    ParentFont = False
+    TabOrder = 12
+  end
+  object BitBtn3: TBitBtn
+    Cursor = crHandPoint
+    Left = 123
+    Height = 36
+    Top = 56
+    Width = 120
+    Caption = 'cos'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn3Click
+    ParentFont = False
+    TabOrder = 13
+  end
+  object BitBtn4: TBitBtn
+    Cursor = crHandPoint
+    Left = 246
+    Height = 36
+    Top = 56
+    Width = 120
+    Caption = 'tan'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn4Click
+    ParentFont = False
+    TabOrder = 14
+  end
+  object BitBtn6: TBitBtn
+    Cursor = crHandPoint
+    Left = 246
+    Height = 36
+    Top = 125
+    Width = 120
+    Caption = 'C'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn6Click
+    ParentFont = False
+    TabOrder = 15
+  end
+  object BitBtn7: TBitBtn
+    Cursor = crHandPoint
+    Left = 0
+    Height = 36
+    Top = 91
+    Width = 120
+    Caption = '+'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn7Click
+    ParentFont = False
+    TabOrder = 16
+  end
+  object BitBtn8: TBitBtn
+    Cursor = crHandPoint
+    Left = 123
+    Height = 36
+    Top = 91
+    Width = 120
+    Caption = '-'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn8Click
+    ParentFont = False
+    TabOrder = 17
+  end
+  object BitBtn9: TBitBtn
+    Cursor = crHandPoint
+    Left = 246
+    Height = 36
+    Top = 91
+    Width = 120
+    Caption = '*'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn9Click
+    ParentFont = False
+    TabOrder = 18
+  end
+  object BitBtn10: TBitBtn
+    Cursor = crHandPoint
+    Left = 0
+    Height = 36
+    Top = 125
+    Width = 120
+    Caption = '/'
+    Color = clHighlight
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = BitBtn10Click
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Button10: TButton
+    Cursor = crHandPoint
+    Left = 0
+    Height = 36
+    Top = 264
+    Width = 120
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button10Click
+    ParentFont = False
+    TabOrder = 20
+  end
+  object Button11: TButton
+    Cursor = crHandPoint
+    Left = 123
+    Height = 36
+    Top = 264
+    Width = 120
+    Caption = ','
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Unmasked BB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button11Click
+    ParentFont = False
+    TabOrder = 21
+  end
+  object Chart1: TChart
+    Left = 0
+    Height = 278
+    Top = 304
+    Width = 366
+    AxisList = <    
+      item
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+      end    
+      item
+        Alignment = calBottom
+        Minors = <>
+      end>
+    Extent.XMax = 200
+    Extent.YMax = 200
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Proportional = True
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Align = alCustom
+    Color = clActiveBorder
+    Visible = False
+    object SinSeries: TLineSeries
+      LinePen.Color = clRed
+      LinePen.Style = psDot
+      LinePen.Width = 6
+    end
+    object CosSeries: TLineSeries
+      LinePen.Color = clBlue
+      LinePen.Width = 3
+    end
+    object TanSeries: TLineSeries
+      LinePen.Color = clFuchsia
+      LinePen.Style = psDash
+    end
+    object FSinSeries: TFuncSeries
+      OnCalculate = FSinSeriesCalculate
+    end
+    object FCosSeries: TFuncSeries
+      OnCalculate = FCosSeriesCalculate
+    end
+    object FTanSeries: TFuncSeries
+      OnCalculate = FTanSeriesCalculate
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 24
+    top = 5
+    object MenuItem1: TMenuItem
+      Caption = 'Inicio'
+      OnClick = MenuItem1Click
+      object MenuItem3: TMenuItem
+        Caption = 'Acerca de...'
+        OnClick = MenuItem3Click
+      end
+      object MenuItem2: TMenuItem
+        Caption = 'Salir'
+        OnClick = MenuItem2Click
+      end
+    end
+    object Modo: TMenuItem
+      Caption = 'Modo'
+      OnClick = ModoClick
+      object normal1: TMenuItem
+        Caption = 'Normal'
+        OnClick = normal1Click
+      end
+      object scientifique1: TMenuItem
+        Caption = 'Científica'
+        OnClick = scientifique1Click
+      end
+    end
+  end
+  object MainMenu2: TMainMenu
+    left = 72
+    top = 5
+  end
+end
